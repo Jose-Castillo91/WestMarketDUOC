@@ -15,7 +15,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         // Se piden datos al usuario
-        int id_producto = solicitaEntero(scanner, "Ingrese el codgio del producto: ");
+        int id_producto = solicitaEntero(scanner, "Ingrese el código del producto: ");
         if (id_producto == -1)return;
 
         String descripcion_producto = solicitarTexto(scanner, "Ingresa la descripción del producto: ");
